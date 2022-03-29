@@ -12,7 +12,7 @@ int main() {
 
     FILE* f;
 
-    f = fopen("file.txt", "w");
+    f = fopen("sort.txt", "w");
 
     cin >> n;
 
@@ -27,7 +27,7 @@ int main() {
 
     fclose(f);
 
-    f= fopen("file.txt", "r");
+    f= fopen("sort.txt", "r");
 
     if (f==NULL)
     {
