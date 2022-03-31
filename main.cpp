@@ -16,6 +16,7 @@ int main() {
 
     cin >> n;
 
+
     vector<int> name(N);
 
     for (i=0; i < n; i++)
